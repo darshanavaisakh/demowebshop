@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-04T14:09:09 IST" name="Default suite" finished-at="2023-11-04T14:09:18 IST" duration-ms="8531">
+    <groups>
+    </groups>
+    <test started-at="2023-11-04T14:09:09 IST" name="Default test" finished-at="2023-11-04T14:09:18 IST" duration-ms="8531">
+      <class name="login.DWS_Jewelry_10_Test">
+        <test-method is-config="true" signature="launchingBroswerAndNavigateToApp()[pri:0, instance:login.DWS_Jewelry_10_Test@4b0d79fc]" started-at="2023-11-04T14:09:10 IST" name="launchingBroswerAndNavigateToApp" finished-at="2023-11-04T14:09:15 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchingBroswerAndNavigateToApp -->
+        <test-method is-config="true" signature="loginToApplication()[pri:0, instance:login.DWS_Jewelry_10_Test@4b0d79fc]" started-at="2023-11-04T14:09:15 IST" name="loginToApplication" finished-at="2023-11-04T14:09:15 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method signature="AddProductToWishlistandRemov()[pri:0, instance:login.DWS_Jewelry_10_Test@4b0d79fc]" started-at="2023-11-04T14:09:15 IST" name="AddProductToWishlistandRemov" finished-at="2023-11-04T14:09:18 IST" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddProductToWishlistandRemov -->
+        <test-method is-config="true" signature="logoutFromApplication()[pri:0, instance:login.DWS_Jewelry_10_Test@4b0d79fc]" started-at="2023-11-04T14:09:18 IST" name="logoutFromApplication" finished-at="2023-11-04T14:09:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApplication -->
+        <test-method is-config="true" signature="teardownTheBrowser()[pri:0, instance:login.DWS_Jewelry_10_Test@4b0d79fc]" started-at="2023-11-04T14:09:18 IST" name="teardownTheBrowser" finished-at="2023-11-04T14:09:18 IST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownTheBrowser -->
+      </class> <!-- login.DWS_Jewelry_10_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

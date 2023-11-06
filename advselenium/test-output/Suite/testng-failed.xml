@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="genericUtility.ITestListenerUtility"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="login.DWS_Register_02_Test">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="userRegisteration"/>
+          <include name="launchingBroswerAndNavigateToApp"/>
+          <include name="teardownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_Register_02_Test -->
+      <class name="login.DWS_Jewelry_08_Test">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="emailaFriendandCheckErrorMessage"/>
+          <include name="launchingBroswerAndNavigateToApp"/>
+          <include name="teardownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_Jewelry_08_Test -->
+      <class name="login.DWS_Login_01_Test">
+        <methods>
+          <include name="Login_to_application_with_valid_credentials"/>
+          <include name="loginToApplication"/>
+          <include name="logoutFromApplication"/>
+          <include name="launchingBroswerAndNavigateToApp"/>
+          <include name="teardownTheBrowser"/>
+        </methods>
+      </class> <!-- login.DWS_Login_01_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
